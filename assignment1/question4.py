@@ -7,12 +7,12 @@ x = random()
 
 values.sort()
 sorted_list = []
-print(x)
 
-print(values)
+print("Value of x: ", x)
 
 for i in values:
     if i >= x:
         sorted_list.append(i)
 
-print(sorted_list)
+print("Sorted list: ", sorted_list)
+print("First Matching Index: ", sorted_list[0])
